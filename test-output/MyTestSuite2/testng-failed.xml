@@ -17,17 +17,17 @@
   </test> <!-- My Account - Orders Test(failed) -->
   <test thread-count="5" name="Cart Test(failed)">
     <classes>
-      <class name="testngtests.AssertionsExamplesTests">
-        <methods>
-          <include name="assertionNotEqualsTest"/>
-        </methods>
-      </class> <!-- testngtests.AssertionsExamplesTests -->
       <class name="testngtests.SampleTest1">
         <methods>
           <include name="deletingFromCartTest"/>
           <include name="additionToCartTest"/>
         </methods>
       </class> <!-- testngtests.SampleTest1 -->
+      <class name="testngtests.AssertionsExamplesTests">
+        <methods>
+          <include name="assertionNotEqualsTest"/>
+        </methods>
+      </class> <!-- testngtests.AssertionsExamplesTests -->
     </classes>
   </test> <!-- Cart Test(failed) -->
 </suite> <!-- Failed suite [MyTestSuite2] -->

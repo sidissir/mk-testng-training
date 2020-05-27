@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [MyTestSuite2]">
-  <test thread-count="5" name="My Account - Orders Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngtests.TestCaseDependencyManagement">
+      <class name="testngtests.ParameterisationUsinDataProvider">
         <methods>
-          <include name="addToCartTest"/>
-          <include name="loginTest"/>
-          <include name="deleteFromCartTest"/>
-          <include name="deleteMultipleItemsFromCartTest"/>
-          <include name="addMultipleItemsToCartTest"/>
-          <include name="logOutTest"/>
+          <include name="userRegistrationTest"/>
         </methods>
-      </class> <!-- testngtests.TestCaseDependencyManagement -->
+      </class> <!-- testngtests.ParameterisationUsinDataProvider -->
     </classes>
-  </test> <!-- My Account - Orders Test(failed) -->
-  <test thread-count="5" name="Cart Test(failed)">
-    <classes>
-      <class name="testngtests.AssertionsExamplesTests">
-        <methods>
-          <include name="assertionNotEqualsTest"/>
-        </methods>
-      </class> <!-- testngtests.AssertionsExamplesTests -->
-      <class name="testngtests.SampleTest1">
-        <methods>
-          <include name="deletingFromCartTest"/>
-          <include name="additionToCartTest"/>
-        </methods>
-      </class> <!-- testngtests.SampleTest1 -->
-    </classes>
-  </test> <!-- Cart Test(failed) -->
-</suite> <!-- Failed suite [MyTestSuite2] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -9,6 +9,7 @@
 	<test thread-count="5" name="My Account - Orders Test">
 		<classes>
 			<class name="testngtests.TestCaseGroupingTest" />
+			
 			<class name="testngtests.TestCaseDependencyManagement" />
 		</classes>
 	</test> <!-- Test -->

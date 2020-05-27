@@ -1,439 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="5" failed="4" ignored="1" total="22" passed="12">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="MyTestSuite2" duration-ms="1078" started-at="2020-05-17T12:34:34 BST" finished-at="2020-05-17T12:34:35 BST">
+  <suite name="Default suite" duration-ms="244518" started-at="2020-05-23T11:27:19 BST" finished-at="2020-05-23T11:31:23 BST">
     <groups>
-      <group name="CartTests">
-        <method signature="TestCaseGroupingTest.addMultipleItemsToCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="addMultipleItemsToCartTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.addToCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="addToCartTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.deleteFromCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="deleteFromCartTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.deleteMultipleItemsFromCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="deleteMultipleItemsFromCartTest" class="testngtests.TestCaseGroupingTest"/>
-      </group> <!-- CartTests -->
-      <group name="AuthenticationTests">
-        <method signature="TestCaseGroupingTest.forgotPasswordTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="forgotPasswordTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.logOutTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="logOutTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.loginTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="loginTest" class="testngtests.TestCaseGroupingTest"/>
-      </group> <!-- AuthenticationTests -->
-      <group name="IntegrationTest">
-        <method signature="TestCaseGroupingTest.addMultipleItemsToCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="addMultipleItemsToCartTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.deleteMultipleItemsFromCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="deleteMultipleItemsFromCartTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.forgotPasswordTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="forgotPasswordTest" class="testngtests.TestCaseGroupingTest"/>
-      </group> <!-- IntegrationTest -->
-      <group name="SmokeTests">
-        <method signature="TestCaseGroupingTest.addToCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="addToCartTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.deleteFromCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="deleteFromCartTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.logOutTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="logOutTest" class="testngtests.TestCaseGroupingTest"/>
-        <method signature="TestCaseGroupingTest.loginTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="loginTest" class="testngtests.TestCaseGroupingTest"/>
-      </group> <!-- SmokeTests -->
     </groups>
-    <test name="My Account - Addresses Test" duration-ms="337" started-at="2020-05-17T12:34:34 BST" finished-at="2020-05-17T12:34:35 BST">
-      <class name="testngtests.TestExecutionOrder">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:testngtests.TestExecutionOrder@5a8e6209]" name="loginTest" duration-ms="67" started-at="2020-05-17T12:34:34 BST" finished-at="2020-05-17T12:34:34 BST">
+    <test name="Default test" duration-ms="244518" started-at="2020-05-23T11:27:19 BST" finished-at="2020-05-23T11:31:23 BST">
+      <class name="testngtests.ParameterisationUsinDataProvider">
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:testngtests.ParameterisationUsinDataProvider@3c46e67a]" name="befMethod" is-config="true" duration-ms="18770" started-at="2020-05-23T11:29:38 BST" finished-at="2020-05-23T11:29:57 BST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="logOutTest()[pri:1, instance:testngtests.TestExecutionOrder@5a8e6209]" name="logOutTest" duration-ms="26" started-at="2020-05-17T12:34:34 BST" finished-at="2020-05-17T12:34:34 BST">
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:testngtests.ParameterisationUsinDataProvider@3c46e67a]" name="userRegistrationTest" duration-ms="29636" started-at="2020-05-23T11:29:57 BST" data-provider="femaleUserDataProvider" finished-at="2020-05-23T11:30:27 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[praveena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOutTest -->
-        <test-method status="PASS" signature="addToCartTest()[pri:2, instance:testngtests.TestExecutionOrder@5a8e6209]" name="addToCartTest" duration-ms="19" started-at="2020-05-17T12:34:34 BST" finished-at="2020-05-17T12:34:34 BST">
+        </test-method> <!-- userRegistrationTest -->
+        <test-method status="PASS" signature="AfMethod()[pri:0, instance:testngtests.ParameterisationUsinDataProvider@3c46e67a]" name="AfMethod" is-config="true" duration-ms="15599" started-at="2020-05-23T11:30:27 BST" finished-at="2020-05-23T11:30:42 BST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCartTest -->
-        <test-method status="PASS" signature="forgotPasswordTest()[pri:3, instance:testngtests.TestExecutionOrder@5a8e6209]" name="forgotPasswordTest" duration-ms="5" started-at="2020-05-17T12:34:34 BST" finished-at="2020-05-17T12:34:34 BST">
+        </test-method> <!-- AfMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:testngtests.ParameterisationUsinDataProvider@3c46e67a]" name="befMethod" is-config="true" duration-ms="10973" started-at="2020-05-23T11:30:42 BST" finished-at="2020-05-23T11:30:53 BST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- forgotPasswordTest -->
-      </class> <!-- testngtests.TestExecutionOrder -->
-    </test> <!-- My Account - Addresses Test -->
-    <test name="My Account - Orders Test" duration-ms="403" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
-      <class name="testngtests.TestCaseGroupingTest">
-        <test-method status="PASS" signature="addMultipleItemsToCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="addMultipleItemsToCartTest" duration-ms="3" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:testngtests.ParameterisationUsinDataProvider@3c46e67a]" name="userRegistrationTest" duration-ms="17568" started-at="2020-05-23T11:30:53 BST" data-provider="femaleUserDataProvider" finished-at="2020-05-23T11:31:11 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ankitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addMultipleItemsToCartTest -->
-        <test-method status="PASS" signature="addToCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="addToCartTest" duration-ms="6" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
+        </test-method> <!-- userRegistrationTest -->
+        <test-method status="PASS" signature="AfMethod()[pri:0, instance:testngtests.ParameterisationUsinDataProvider@3c46e67a]" name="AfMethod" is-config="true" duration-ms="2865" started-at="2020-05-23T11:31:11 BST" finished-at="2020-05-23T11:31:14 BST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCartTest -->
-        <test-method status="PASS" signature="deleteFromCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="deleteFromCartTest" duration-ms="5" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
+        </test-method> <!-- AfMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:testngtests.ParameterisationUsinDataProvider@3c46e67a]" name="befMethod" is-config="true" duration-ms="3677" started-at="2020-05-23T11:31:14 BST" finished-at="2020-05-23T11:31:17 BST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteFromCartTest -->
-        <test-method status="PASS" signature="deleteMultipleItemsFromCartTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="deleteMultipleItemsFromCartTest" duration-ms="15" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:testngtests.ParameterisationUsinDataProvider@3c46e67a]" name="userRegistrationTest" duration-ms="2415" started-at="2020-05-23T11:31:17 BST" data-provider="femaleUserDataProvider" finished-at="2020-05-23T11:31:20 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteMultipleItemsFromCartTest -->
-        <test-method status="PASS" signature="forgotPasswordTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="forgotPasswordTest" duration-ms="3" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
+        </test-method> <!-- userRegistrationTest -->
+        <test-method status="PASS" signature="AfMethod()[pri:0, instance:testngtests.ParameterisationUsinDataProvider@3c46e67a]" name="AfMethod" is-config="true" duration-ms="3292" started-at="2020-05-23T11:31:20 BST" finished-at="2020-05-23T11:31:23 BST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- forgotPasswordTest -->
-        <test-method status="PASS" signature="logOutTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="logOutTest" duration-ms="6" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:testngtests.TestCaseGroupingTest@22a67b4]" name="loginTest" duration-ms="10" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- testngtests.TestCaseGroupingTest -->
-      <class name="testngtests.TestCaseDependencyManagement">
-        <test-method status="PASS" signature="forgotPasswordTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a]" name="forgotPasswordTest" duration-ms="5" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPasswordTest -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a]" name="loginTest" duration-ms="6" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login functionality is not working. expected [somethingelse] but found [something]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login functionality is not working. expected [somethingelse] but found [something]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at testngtests.TestCaseDependencyManagement.loginTest(TestCaseDependencyManagement.java:18)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="addMultipleItemsToCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a]" name="addMultipleItemsToCartTest" duration-ms="0" started-at="2020-05-17T12:34:35 BST" depends-on-methods="testngtests.TestCaseDependencyManagement.loginTest" finished-at="2020-05-17T12:34:35 BST">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestCaseDependencyManagement.addMultipleItemsToCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCaseDependencyManagement.addMultipleItemsToCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addMultipleItemsToCartTest -->
-        <test-method status="SKIP" signature="addToCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a]" name="addToCartTest" duration-ms="0" started-at="2020-05-17T12:34:35 BST" depends-on-methods="testngtests.TestCaseDependencyManagement.loginTest" finished-at="2020-05-17T12:34:35 BST">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestCaseDependencyManagement.addToCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCaseDependencyManagement.addToCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCartTest -->
-        <test-method status="SKIP" signature="deleteFromCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a]" name="deleteFromCartTest" duration-ms="0" started-at="2020-05-17T12:34:35 BST" depends-on-methods="testngtests.TestCaseDependencyManagement.loginTest" finished-at="2020-05-17T12:34:35 BST">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestCaseDependencyManagement.deleteFromCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCaseDependencyManagement.deleteFromCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteFromCartTest -->
-        <test-method status="SKIP" signature="deleteMultipleItemsFromCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a]" name="deleteMultipleItemsFromCartTest" duration-ms="0" started-at="2020-05-17T12:34:35 BST" depends-on-methods="testngtests.TestCaseDependencyManagement.loginTest" finished-at="2020-05-17T12:34:35 BST">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestCaseDependencyManagement.deleteMultipleItemsFromCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCaseDependencyManagement.deleteMultipleItemsFromCartTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteMultipleItemsFromCartTest -->
-        <test-method status="SKIP" signature="logOutTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a]" name="logOutTest" duration-ms="0" started-at="2020-05-17T12:34:35 BST" depends-on-methods="testngtests.TestCaseDependencyManagement.loginTest" finished-at="2020-05-17T12:34:35 BST">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestCaseDependencyManagement.logOutTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCaseDependencyManagement.logOutTest()[pri:0, instance:testngtests.TestCaseDependencyManagement@57855c9a] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutTest -->
-      </class> <!-- testngtests.TestCaseDependencyManagement -->
-    </test> <!-- My Account - Orders Test -->
-    <test name="Cart Test" duration-ms="51" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
-      <class name="testngtests.AssertionsExamplesTests">
-        <test-method status="FAIL" signature="assertionNotEqualsTest()[pri:0, instance:testngtests.AssertionsExamplesTests@4bbfb90a]" name="assertionNotEqualsTest" duration-ms="3" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[I am failure Message : Titles should not match biut they are matching.  did not expect [Something] but found [Something]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: I am failure Message : Titles should not match biut they are matching.  did not expect [Something] but found [Something]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertNotEquals(Assert.java:1399)
-at testngtests.AssertionsExamplesTests.assertionNotEqualsTest(AssertionsExamplesTests.java:53)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertionNotEqualsTest -->
-      </class> <!-- testngtests.AssertionsExamplesTests -->
-      <class name="testngtests.SampleTest1">
-        <test-method status="FAIL" signature="additionToCartTest()[pri:0, instance:testngtests.SampleTest1@7c29daf3]" name="additionToCartTest" duration-ms="2" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [1] but found [0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:839)
-at org.testng.Assert.assertEquals(Assert.java:849)
-at testngtests.SampleTest1.additionToCartTest(SampleTest1.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- additionToCartTest -->
-        <test-method status="FAIL" signature="deletingFromCartTest()[pri:0, instance:testngtests.SampleTest1@7c29daf3]" name="deletingFromCartTest" duration-ms="2" started-at="2020-05-17T12:34:35 BST" finished-at="2020-05-17T12:34:35 BST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [0] but found [3]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [0] but found [3]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:839)
-at org.testng.Assert.assertEquals(Assert.java:849)
-at testngtests.SampleTest1.deletingFromCartTest(SampleTest1.java:46)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletingFromCartTest -->
-      </class> <!-- testngtests.SampleTest1 -->
-    </test> <!-- Cart Test -->
-  </suite> <!-- MyTestSuite2 -->
+        </test-method> <!-- AfMethod -->
+      </class> <!-- testngtests.ParameterisationUsinDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
